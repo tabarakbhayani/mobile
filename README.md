@@ -1,1 +1,67 @@
-# mobile
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latest Phones</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .phone {
+            border-bottom: 1px solid #ccc;
+            padding: 10px 0;
+        }
+        .phone:last-child {
+            border-bottom: none;
+        }
+        .phone h2 {
+            margin: 0;
+        }
+        .phone p {
+            margin: 5px 0;
+        }
+        .phone ul {
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="phone">
+            <h2>Apple iPhone 14 Pro</h2>
+            <p><strong>Release Date:</strong> September 2024</p>
+            <p><strong>Features:</strong></p>
+            <ul>
+                <li>6.1-inch Super Retina XDR display</li>
+                <li>A18 Bionic chip</li>
+                <li>Pro camera system with 48MP main camera</li>
+                <li>5G capable</li>
+                <li>Face ID</li>
+            </ul>
+        </div>
+        <div class="phone">
+            <h2>Samsung Galaxy S24 Ultra</h2>
+            <p><strong>Release Date:</strong> January 2025</p>
+            <p><strong>Features:</strong></p>
+            <ul>
+                <li>6.8-inch Dynamic AMOLED 2X display</li>
+                <li>Exynos 2200/Snapdragon 895 processor</li>
+                <li>Quad camera setup with 108MP main sensor</li>
+                <li>5G capable</li>
+                <li>In-display fingerprint sensor</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
